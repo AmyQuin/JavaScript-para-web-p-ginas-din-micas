@@ -2,6 +2,24 @@ function playSonidoPom() {
     document.querySelector('#sonido_tecla_pom').play();
 }
 
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
-document.querySelector('.tecla_pom').onclick = playSonidoPom;
+listaDeTeclas[0].onclick = playSonidoPom;
+listaDeTeclas[1].onclick = playSonidoPom;
 
+
+
+
+
+
+//document.querySelector('.tecla_pom').onclick = playSonidoPom;
+
+
+
+//function playSonidoClap() {
+/*     document.querySelector('#sonido_tecla_clap').play();
+}
+
+
+document.querySelector('.tecla_clap').onclick = playSonidoClap;
+ */
